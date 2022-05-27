@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "fitapp_analysis"
+version = "0.1.0"
+description = "fitness experiments"
+authors = ["Aayush Singha Roy"]
+repository="https://github.com/Asr419/fitapp_aayush"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.13.9"
+mypy = "^0.960"
+autopep8 = "^1.6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
